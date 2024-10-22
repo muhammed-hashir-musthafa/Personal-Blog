@@ -13,7 +13,7 @@ function App() {
       <Router>
         <Routes>
           <Route path='/' element={<Home />} />
-          <Route path='/article/:id' element={<BlogDetails />} />
+          <Route path='/article' element={<BlogDetails />} />
           <Route path='/admin' element={<AdminDash />} />
           <Route path='/admin/blog' element={<AdminBlog />} />
           <Route path='/admin/addblog' element={<AdminAddBlog />} />

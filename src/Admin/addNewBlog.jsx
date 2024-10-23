@@ -25,8 +25,7 @@ function AdminAddBlog() {
     }).catch(err => console.error(err)
     )
   }
-  console.log(list)
-
+ 
   return (
     <div>
       <h1 className='font-bold text-center mt-5 text-2xl text-yellow-700'>Add New Article</h1>
